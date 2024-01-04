@@ -1,0 +1,121 @@
+|rippleCarry
+S0 <= fulladder:inst.S
+A0 => fulladder:inst.A
+B0 => fulladder:inst.B
+C0 => fulladder:inst.C
+S1 <= fulladder:inst1.S
+A1 => fulladder:inst1.A
+B1 => fulladder:inst1.B
+S2 <= fulladder:inst2.S
+A2 => fulladder:inst2.A
+B2 => fulladder:inst2.B
+S3 <= fulladder:inst3.S
+A3 => fulladder:inst3.A
+B3 => fulladder:inst3.B
+C4 <= fulladder:inst3.Cout
+
+
+|rippleCarry|fulladder:inst
+S <= halfadder:inst6.SUM
+A => halfadder:inst.A
+B => halfadder:inst.B
+C => halfadder:inst6.B
+Cout <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarry|fulladder:inst|halfadder:inst6
+CARRY <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst3.IN0
+A => inst.IN1
+B => inst3.IN1
+B => inst.IN0
+SUM <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarry|fulladder:inst|halfadder:inst
+CARRY <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst3.IN0
+A => inst.IN1
+B => inst3.IN1
+B => inst.IN0
+SUM <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarry|fulladder:inst1
+S <= halfadder:inst6.SUM
+A => halfadder:inst.A
+B => halfadder:inst.B
+C => halfadder:inst6.B
+Cout <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarry|fulladder:inst1|halfadder:inst6
+CARRY <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst3.IN0
+A => inst.IN1
+B => inst3.IN1
+B => inst.IN0
+SUM <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarry|fulladder:inst1|halfadder:inst
+CARRY <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst3.IN0
+A => inst.IN1
+B => inst3.IN1
+B => inst.IN0
+SUM <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarry|fulladder:inst2
+S <= halfadder:inst6.SUM
+A => halfadder:inst.A
+B => halfadder:inst.B
+C => halfadder:inst6.B
+Cout <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarry|fulladder:inst2|halfadder:inst6
+CARRY <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst3.IN0
+A => inst.IN1
+B => inst3.IN1
+B => inst.IN0
+SUM <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarry|fulladder:inst2|halfadder:inst
+CARRY <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst3.IN0
+A => inst.IN1
+B => inst3.IN1
+B => inst.IN0
+SUM <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarry|fulladder:inst3
+S <= halfadder:inst6.SUM
+A => halfadder:inst.A
+B => halfadder:inst.B
+C => halfadder:inst6.B
+Cout <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarry|fulladder:inst3|halfadder:inst6
+CARRY <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst3.IN0
+A => inst.IN1
+B => inst3.IN1
+B => inst.IN0
+SUM <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarry|fulladder:inst3|halfadder:inst
+CARRY <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => inst3.IN0
+A => inst.IN1
+B => inst3.IN1
+B => inst.IN0
+SUM <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
