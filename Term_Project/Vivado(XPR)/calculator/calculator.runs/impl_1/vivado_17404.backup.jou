@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Dec 26 15:33:34 2023
+# Process ID: 17404
+# Current directory: E:/NSS_CAL/calculator/calculator.runs/impl_1
+# Command line: vivado.exe -log calculator.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source calculator.tcl -notrace
+# Log file: E:/NSS_CAL/calculator/calculator.runs/impl_1/calculator.vdi
+# Journal file: E:/NSS_CAL/calculator/calculator.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source calculator.tcl -notrace

@@ -1,0 +1,315 @@
+
+*** Running vivado
+    with args -log calculator.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source calculator.tcl
+
+
+
+****** Vivado v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source calculator.tcl -notrace
+Command: synth_design -top calculator -part xc7s75fgga484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7s75'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7s75'
+INFO: [Device 21-403] Loading part xc7s75fgga484-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 27412
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1030.316 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'calculator' [E:/quartus_prime/calculator/calculator.v:20]
+INFO: [Synth 8-6157] synthesizing module 'PNU_CLK_DIV' [E:/quartus_prime/calculator/PNU_CLK_DIV.v:1]
+	Parameter cnt_num bound to: 10000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PNU_CLK_DIV' (1#1) [E:/quartus_prime/calculator/PNU_CLK_DIV.v:1]
+INFO: [Synth 8-6157] synthesizing module 'd2b' [E:/quartus_prime/calculator/d2b.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'd2b' (2#1) [E:/quartus_prime/calculator/d2b.v:20]
+INFO: [Synth 8-6157] synthesizing module 'count_4' [E:/quartus_prime/calculator/count_4.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'count_4' (3#1) [E:/quartus_prime/calculator/count_4.v:20]
+INFO: [Synth 8-6157] synthesizing module 'Piezo_Module' [E:/quartus_prime/calculator/Piezo_Module.v:20]
+INFO: [Synth 8-6157] synthesizing module 'PNU_CLK_DIV__parameterized0' [E:/quartus_prime/calculator/PNU_CLK_DIV.v:1]
+	Parameter cnt_num bound to: 1516 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PNU_CLK_DIV__parameterized0' (3#1) [E:/quartus_prime/calculator/PNU_CLK_DIV.v:1]
+INFO: [Synth 8-6157] synthesizing module 'PNU_CLK_DIV__parameterized1' [E:/quartus_prime/calculator/PNU_CLK_DIV.v:1]
+	Parameter cnt_num bound to: 1431 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PNU_CLK_DIV__parameterized1' (3#1) [E:/quartus_prime/calculator/PNU_CLK_DIV.v:1]
+INFO: [Synth 8-6157] synthesizing module 'PNU_CLK_DIV__parameterized2' [E:/quartus_prime/calculator/PNU_CLK_DIV.v:1]
+	Parameter cnt_num bound to: 1702 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PNU_CLK_DIV__parameterized2' (3#1) [E:/quartus_prime/calculator/PNU_CLK_DIV.v:1]
+INFO: [Synth 8-6157] synthesizing module 'PNU_CLK_DIV__parameterized3' [E:/quartus_prime/calculator/PNU_CLK_DIV.v:1]
+	Parameter cnt_num bound to: 1275 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PNU_CLK_DIV__parameterized3' (3#1) [E:/quartus_prime/calculator/PNU_CLK_DIV.v:1]
+INFO: [Synth 8-6157] synthesizing module 'PNU_CLK_DIV__parameterized4' [E:/quartus_prime/calculator/PNU_CLK_DIV.v:1]
+	Parameter cnt_num bound to: 3822 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PNU_CLK_DIV__parameterized4' (3#1) [E:/quartus_prime/calculator/PNU_CLK_DIV.v:1]
+INFO: [Synth 8-6157] synthesizing module 'PNU_CLK_DIV__parameterized5' [E:/quartus_prime/calculator/PNU_CLK_DIV.v:1]
+	Parameter cnt_num bound to: 3405 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PNU_CLK_DIV__parameterized5' (3#1) [E:/quartus_prime/calculator/PNU_CLK_DIV.v:1]
+INFO: [Synth 8-6157] synthesizing module 'PNU_CLK_DIV__parameterized6' [E:/quartus_prime/calculator/PNU_CLK_DIV.v:1]
+	Parameter cnt_num bound to: 3033 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PNU_CLK_DIV__parameterized6' (3#1) [E:/quartus_prime/calculator/PNU_CLK_DIV.v:1]
+INFO: [Synth 8-6157] synthesizing module 'PNU_CLK_DIV__parameterized7' [E:/quartus_prime/calculator/PNU_CLK_DIV.v:1]
+	Parameter cnt_num bound to: 2863 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PNU_CLK_DIV__parameterized7' (3#1) [E:/quartus_prime/calculator/PNU_CLK_DIV.v:1]
+INFO: [Synth 8-6157] synthesizing module 'PNU_CLK_DIV__parameterized8' [E:/quartus_prime/calculator/PNU_CLK_DIV.v:1]
+	Parameter cnt_num bound to: 2551 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PNU_CLK_DIV__parameterized8' (3#1) [E:/quartus_prime/calculator/PNU_CLK_DIV.v:1]
+INFO: [Synth 8-6157] synthesizing module 'PNU_CLK_DIV__parameterized9' [E:/quartus_prime/calculator/PNU_CLK_DIV.v:1]
+	Parameter cnt_num bound to: 2272 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PNU_CLK_DIV__parameterized9' (3#1) [E:/quartus_prime/calculator/PNU_CLK_DIV.v:1]
+INFO: [Synth 8-6157] synthesizing module 'PNU_CLK_DIV__parameterized10' [E:/quartus_prime/calculator/PNU_CLK_DIV.v:1]
+	Parameter cnt_num bound to: 2024 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PNU_CLK_DIV__parameterized10' (3#1) [E:/quartus_prime/calculator/PNU_CLK_DIV.v:1]
+INFO: [Synth 8-6157] synthesizing module 'PNU_CLK_DIV__parameterized11' [E:/quartus_prime/calculator/PNU_CLK_DIV.v:1]
+	Parameter cnt_num bound to: 1911 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PNU_CLK_DIV__parameterized11' (3#1) [E:/quartus_prime/calculator/PNU_CLK_DIV.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Piezo_Module' (4#1) [E:/quartus_prime/calculator/Piezo_Module.v:20]
+INFO: [Synth 8-6157] synthesizing module 'phase_selector' [E:/quartus_prime/calculator/phase_selector.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'phase_selector' (5#1) [E:/quartus_prime/calculator/phase_selector.v:20]
+WARNING: [Synth 8-7071] port 'phase_3' of module 'phase_selector' is unconnected for instance 'b2v_inst16' [E:/quartus_prime/calculator/calculator.v:290]
+WARNING: [Synth 8-7023] instance 'b2v_inst16' of module 'phase_selector' has 9 connections declared, but only 8 given [E:/quartus_prime/calculator/calculator.v:290]
+INFO: [Synth 8-6157] synthesizing module 'b2seg_bus' [E:/quartus_prime/calculator/b2seg_bus.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'b2seg_bus' (6#1) [E:/quartus_prime/calculator/b2seg_bus.v:20]
+INFO: [Synth 8-6157] synthesizing module 'mx_4bit_2x1' [E:/quartus_prime/calculator/mx_4bit_2x1.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'mx_4bit_2x1' (7#1) [E:/quartus_prime/calculator/mx_4bit_2x1.v:20]
+INFO: [Synth 8-6157] synthesizing module 'trigger' [E:/quartus_prime/calculator/trigger.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'trigger' (8#1) [E:/quartus_prime/calculator/trigger.v:20]
+INFO: [Synth 8-6157] synthesizing module 'phase_counter' [E:/quartus_prime/calculator/phase_counter.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'phase_counter' (9#1) [E:/quartus_prime/calculator/phase_counter.v:20]
+INFO: [Synth 8-6157] synthesizing module 'count_8' [E:/quartus_prime/calculator/count_8.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'count_8' (10#1) [E:/quartus_prime/calculator/count_8.v:20]
+INFO: [Synth 8-6157] synthesizing module 'LED' [E:/quartus_prime/calculator/LED.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'LED' (11#1) [E:/quartus_prime/calculator/LED.v:20]
+INFO: [Synth 8-6157] synthesizing module 'four_register_holder' [E:/quartus_prime/calculator/four_register_holder.v:20]
+INFO: [Synth 8-6157] synthesizing module 'four_bit_reg_ce' [E:/quartus_prime/calculator/four_bit_reg_ce.v:20]
+INFO: [Synth 8-6157] synthesizing module 'mx_2x1' [E:/quartus_prime/calculator/mx_2x1.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'mx_2x1' (12#1) [E:/quartus_prime/calculator/mx_2x1.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'four_bit_reg_ce' (13#1) [E:/quartus_prime/calculator/four_bit_reg_ce.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'four_register_holder' (14#1) [E:/quartus_prime/calculator/four_register_holder.v:20]
+INFO: [Synth 8-6157] synthesizing module 'myphase' [E:/quartus_prime/calculator/myphase.v:20]
+INFO: [Synth 8-6157] synthesizing module 'mux_set' [E:/quartus_prime/calculator/mux_set.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'mux_set' (15#1) [E:/quartus_prime/calculator/mux_set.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'myphase' (16#1) [E:/quartus_prime/calculator/myphase.v:20]
+WARNING: [Synth 8-7071] port 'op1' of module 'myphase' is unconnected for instance 'b2v_inst66' [E:/quartus_prime/calculator/calculator.v:480]
+WARNING: [Synth 8-7071] port 'op2' of module 'myphase' is unconnected for instance 'b2v_inst66' [E:/quartus_prime/calculator/calculator.v:480]
+WARNING: [Synth 8-7071] port 'op3' of module 'myphase' is unconnected for instance 'b2v_inst66' [E:/quartus_prime/calculator/calculator.v:480]
+WARNING: [Synth 8-7071] port 'op4' of module 'myphase' is unconnected for instance 'b2v_inst66' [E:/quartus_prime/calculator/calculator.v:480]
+WARNING: [Synth 8-7023] instance 'b2v_inst66' of module 'myphase' has 12 connections declared, but only 8 given [E:/quartus_prime/calculator/calculator.v:480]
+INFO: [Synth 8-6157] synthesizing module 'ripple_carry_adder' [E:/quartus_prime/calculator/ripple_carry_adder.v:20]
+INFO: [Synth 8-6157] synthesizing module 'full_adder' [E:/quartus_prime/calculator/full_adder.v:20]
+INFO: [Synth 8-6157] synthesizing module 'half_adder' [E:/quartus_prime/calculator/half_adder.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'half_adder' (17#1) [E:/quartus_prime/calculator/half_adder.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'full_adder' (18#1) [E:/quartus_prime/calculator/full_adder.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'ripple_carry_adder' (19#1) [E:/quartus_prime/calculator/ripple_carry_adder.v:20]
+WARNING: [Synth 8-7071] port 'Cout' of module 'ripple_carry_adder' is unconnected for instance 'b2v_inst73' [E:/quartus_prime/calculator/calculator.v:533]
+WARNING: [Synth 8-7023] instance 'b2v_inst73' of module 'ripple_carry_adder' has 5 connections declared, but only 4 given [E:/quartus_prime/calculator/calculator.v:533]
+WARNING: [Synth 8-7071] port 'C_in' of module 'ripple_carry_adder' is unconnected for instance 'b2v_inst74' [E:/quartus_prime/calculator/calculator.v:541]
+WARNING: [Synth 8-7023] instance 'b2v_inst74' of module 'ripple_carry_adder' has 5 connections declared, but only 4 given [E:/quartus_prime/calculator/calculator.v:541]
+WARNING: [Synth 8-7071] port 'din' of module 'four_register_holder' is unconnected for instance 'b2v_inst75' [E:/quartus_prime/calculator/calculator.v:549]
+WARNING: [Synth 8-7071] port 'out0' of module 'four_register_holder' is unconnected for instance 'b2v_inst75' [E:/quartus_prime/calculator/calculator.v:549]
+WARNING: [Synth 8-7071] port 'out1' of module 'four_register_holder' is unconnected for instance 'b2v_inst75' [E:/quartus_prime/calculator/calculator.v:549]
+WARNING: [Synth 8-7071] port 'out2' of module 'four_register_holder' is unconnected for instance 'b2v_inst75' [E:/quartus_prime/calculator/calculator.v:549]
+WARNING: [Synth 8-7023] instance 'b2v_inst75' of module 'four_register_holder' has 8 connections declared, but only 4 given [E:/quartus_prime/calculator/calculator.v:549]
+INFO: [Synth 8-6155] done synthesizing module 'calculator' (20#1) [E:/quartus_prime/calculator/calculator.v:20]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 1030.316 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 1030.316 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 1030.316 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 1030.316 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/NSS_CAL/calculator/calculator.srcs/constrs_1/new/calculator.xdc]
+Finished Parsing XDC File [E:/NSS_CAL/calculator/calculator.srcs/constrs_1/new/calculator.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/NSS_CAL/calculator/calculator.srcs/constrs_1/new/calculator.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/calculator_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/calculator_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1036.848 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1036.848 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:21 . Memory (MB): peak = 1036.848 ; gain = 6.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7s75fgga484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:21 . Memory (MB): peak = 1036.848 ; gain = 6.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:21 . Memory (MB): peak = 1036.848 ; gain = 6.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:22 . Memory (MB): peak = 1036.848 ; gain = 6.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   14 Bit       Adders := 1     
+	   2 Input   12 Bit       Adders := 6     
+	   2 Input   11 Bit       Adders := 6     
++---XORs : 
+	   2 Input      1 Bit         XORs := 38    
++---Registers : 
+	               20 Bit    Registers := 13    
+	                1 Bit    Registers := 152   
++---Muxes : 
+	   2 Input   14 Bit        Muxes := 2     
+	   2 Input   12 Bit        Muxes := 12    
+	   2 Input   11 Bit        Muxes := 12    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 140 (col length:80)
+BRAMs: 180 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:27 . Memory (MB): peak = 1036.848 ; gain = 6.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:33 . Memory (MB): peak = 1036.848 ; gain = 6.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:33 . Memory (MB): peak = 1036.848 ; gain = 6.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:33 . Memory (MB): peak = 1045.992 ; gain = 15.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:35 . Memory (MB): peak = 1051.801 ; gain = 21.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:35 . Memory (MB): peak = 1051.801 ; gain = 21.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:16 ; elapsed = 00:00:35 . Memory (MB): peak = 1051.801 ; gain = 21.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:16 ; elapsed = 00:00:35 . Memory (MB): peak = 1051.801 ; gain = 21.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:35 . Memory (MB): peak = 1051.801 ; gain = 21.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:16 ; elapsed = 00:00:35 . Memory (MB): peak = 1051.801 ; gain = 21.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    22|
+|3     |LUT1   |     4|
+|4     |LUT2   |    94|
+|5     |LUT3   |    45|
+|6     |LUT4   |    38|
+|7     |LUT5   |    46|
+|8     |LUT6   |   125|
+|9     |MUXF7  |     9|
+|10    |MUXF8  |     3|
+|11    |FDCE   |   272|
+|12    |IBUF   |    14|
+|13    |OBUF   |    43|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:16 ; elapsed = 00:00:35 . Memory (MB): peak = 1051.801 ; gain = 21.484
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:31 . Memory (MB): peak = 1051.801 ; gain = 14.953
+Synthesis Optimization Complete : Time (s): cpu = 00:00:16 ; elapsed = 00:00:35 . Memory (MB): peak = 1051.801 ; gain = 21.484
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1063.828 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 34 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1063.828 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+79 Infos, 16 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:40 . Memory (MB): peak = 1063.828 ; gain = 33.512
+INFO: [Common 17-1381] The checkpoint 'E:/NSS_CAL/calculator/calculator.runs/synth_1/calculator.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file calculator_utilization_synth.rpt -pb calculator_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Dec 26 15:33:22 2023...
