@@ -1,0 +1,101 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'clk'
+Slack : -3.880
+TNS   : -978.753
+
+Type  : Slow 1100mV 85C Model Setup 'PNU_CLK_DIV:inst1|buff'
+Slack : -1.532
+TNS   : -3.010
+
+Type  : Slow 1100mV 85C Model Hold 'clk'
+Slack : 0.509
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'PNU_CLK_DIV:inst1|buff'
+Slack : 0.586
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.724
+TNS   : -343.437
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'PNU_CLK_DIV:inst1|buff'
+Slack : -0.724
+TNS   : -3.450
+
+Type  : Slow 1100mV 0C Model Setup 'clk'
+Slack : -3.871
+TNS   : -960.948
+
+Type  : Slow 1100mV 0C Model Setup 'PNU_CLK_DIV:inst1|buff'
+Slack : -1.533
+TNS   : -2.939
+
+Type  : Slow 1100mV 0C Model Hold 'clk'
+Slack : 0.528
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'PNU_CLK_DIV:inst1|buff'
+Slack : 0.555
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.724
+TNS   : -346.301
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'PNU_CLK_DIV:inst1|buff'
+Slack : -0.724
+TNS   : -3.431
+
+Type  : Fast 1100mV 85C Model Setup 'clk'
+Slack : -1.177
+TNS   : -253.909
+
+Type  : Fast 1100mV 85C Model Setup 'PNU_CLK_DIV:inst1|buff'
+Slack : -0.338
+TNS   : -0.351
+
+Type  : Fast 1100mV 85C Model Hold 'PNU_CLK_DIV:inst1|buff'
+Slack : 0.177
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'clk'
+Slack : 0.181
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.314
+TNS   : -24.961
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'PNU_CLK_DIV:inst1|buff'
+Slack : -0.017
+TNS   : -0.048
+
+Type  : Fast 1100mV 0C Model Setup 'clk'
+Slack : -1.008
+TNS   : -213.815
+
+Type  : Fast 1100mV 0C Model Setup 'PNU_CLK_DIV:inst1|buff'
+Slack : -0.274
+TNS   : -0.274
+
+Type  : Fast 1100mV 0C Model Hold 'PNU_CLK_DIV:inst1|buff'
+Slack : 0.150
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'clk'
+Slack : 0.172
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.315
+TNS   : -25.572
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'PNU_CLK_DIV:inst1|buff'
+Slack : 0.023
+TNS   : 0.000
+
+------------------------------------------------------------
