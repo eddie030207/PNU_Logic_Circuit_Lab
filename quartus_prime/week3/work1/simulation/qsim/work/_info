@@ -1,0 +1,267 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/quartus_prime/week3/work1/simulation/qsim
+v\2bitcompare 
+!s110 1695793512
+!i10b 1
+!s100 z5PjglB;554LBfS?3KTC^0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I47EHXNSIM4OlzT4Seze<K3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1695793511
+Z3 8dectobin.vo
+Z4 Fdectobin.vo
+!i122 2
+Z5 L0 32 255
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1695793512.000000
+Z7 !s107 dectobin.vo|
+Z8 !s90 -work|work|dectobin.vo|
+!i113 1
+Z9 o-work work
+Z10 tCvgOpt 0
+n@1342bitcompare@040
+vdectobin
+Z11 !s110 1695790868
+!i10b 1
+!s100 :fZnH:Lc8=nnQBb@HW@^V1
+R1
+IWaVPDz>X6deZQhR[MV9cl0
+R2
+R0
+w1695790865
+R3
+R4
+!i122 0
+L0 32 425
+R6
+r1
+!s85 0
+31
+Z12 !s108 1695790868.000000
+R7
+R8
+!i113 1
+R9
+R10
+vdectobin_vlg_vec_tst
+R11
+!i10b 1
+!s100 1W9?[fO<fUF@OoKndIE2[0
+R1
+IUVY[j:Q7S`kLKW[:k@h5^2
+R2
+R0
+w1695790864
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 1
+L0 30 197
+R6
+r1
+!s85 0
+31
+R12
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R9
+R10
+vfulladder
+Z13 !s110 1695795144
+!i10b 1
+!s100 GW@=3B:NWTLgPbdWmZEYd2
+R1
+I^mHMVfWHDfY6f4XdQVlkh3
+R2
+R0
+w1695795144
+R3
+R4
+!i122 7
+L0 32 176
+R6
+r1
+!s85 0
+31
+Z14 !s108 1695795144.000000
+R7
+R8
+!i113 1
+R9
+R10
+vfulladder_vlg_vec_tst
+R13
+!i10b 1
+!s100 NB=jDVl2:EF75?kb]la`W2
+R1
+IR4eLhfM8gl[zkdJ<K>>fP3
+R2
+R0
+w1695795143
+8Waveform3.vwf.vt
+FWaveform3.vwf.vt
+!i122 8
+L0 30 59
+R6
+r1
+!s85 0
+31
+R14
+!s107 Waveform3.vwf.vt|
+!s90 -work|work|Waveform3.vwf.vt|
+!i113 1
+R9
+R10
+vhalfadder
+Z15 !s110 1695794667
+!i10b 1
+!s100 ?i^?n6^L^hhTHWl>9zW393
+R1
+I_4cZoBSjFLRN6Y53^_@T:2
+R2
+R0
+w1695794666
+R3
+R4
+!i122 5
+L0 32 161
+R6
+r1
+!s85 0
+31
+Z16 !s108 1695794667.000000
+R7
+R8
+!i113 1
+R9
+R10
+vhalfadder_vlg_vec_tst
+R15
+!i10b 1
+!s100 =Nmok:0kX@o4mO>]3T=S^2
+R1
+I;FX7hfi>[YmL]J8iII;LD1
+R2
+R0
+w1695794665
+8Waveform2.vwf.vt
+FWaveform2.vwf.vt
+!i122 6
+L0 30 44
+R6
+r1
+!s85 0
+31
+R16
+!s107 Waveform2.vwf.vt|
+!s90 -work|work|Waveform2.vwf.vt|
+!i113 1
+R9
+R10
+vrippleCarry
+Z17 !s110 1695795491
+!i10b 1
+!s100 g`90g7WGjB0zXK?8[albJ2
+R1
+Ifl?]PCX<[dOjOo`faH@>S0
+R2
+R0
+w1695795490
+R3
+R4
+!i122 9
+L0 32 428
+R6
+r1
+!s85 0
+31
+!s108 1695795490.000000
+R7
+R8
+!i113 1
+R9
+R10
+nripple@carry
+vrippleCarry_vlg_vec_tst
+R17
+!i10b 1
+!s100 E^OBR74Fce@YzXzGm8z8@1
+R1
+I3ziU94T0ocBmjU3AacRU02
+R2
+R0
+w1695795489
+8Waveform4.vwf.vt
+FWaveform4.vwf.vt
+!i122 10
+L0 30 159
+R6
+r1
+!s85 0
+31
+!s108 1695795491.000000
+!s107 Waveform4.vwf.vt|
+!s90 -work|work|Waveform4.vwf.vt|
+!i113 1
+R9
+R10
+nripple@carry_vlg_vec_tst
+vtwobitcompare
+Z18 !s110 1695793929
+!i10b 1
+!s100 ]02@PQRQCX[zK?:bIBOT=0
+R1
+I2I9mMMa2ba_HOSJn>WIMm1
+R2
+R0
+w1695793928
+R3
+R4
+!i122 3
+R5
+R6
+r1
+!s85 0
+31
+Z19 !s108 1695793929.000000
+R7
+R8
+!i113 1
+R9
+R10
+vtwobitcompare_vlg_vec_tst
+R18
+!i10b 1
+!s100 N>YSL>12C9]P8@2=A4@UX0
+R1
+IDS:mNLM970OzF^;PNNc2C3
+R2
+R0
+w1695793927
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+!i122 4
+L0 30 82
+R6
+r1
+!s85 0
+31
+R19
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R9
+R10
