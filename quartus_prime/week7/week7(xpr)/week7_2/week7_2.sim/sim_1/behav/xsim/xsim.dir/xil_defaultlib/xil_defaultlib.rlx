@@ -1,0 +1,10 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/박유현/Desktop/week7/work1/21mux.v,1667388102,verilog,,C:/Users/박유현/Desktop/week7/work1/decimal_to_binary.v,,21mux,,,,,,,,
+C:/Users/박유현/Desktop/week7/work1/decimal_to_binary.v,1667385160,verilog,,C:/Users/박유현/Desktop/week7/work1/four_bit_register.v,,decimal_to_binary,,,,,,,,
+C:/Users/박유현/Desktop/week7/work1/four_bit_register.v,1667391232,verilog,,C:/Users/박유현/Desktop/week7/work1/trigger.v,,four_bit_register,,,,,,,,
+C:/Users/박유현/Desktop/week7/work1/trigger.v,1667385234,verilog,,C:/Users/박유현/Desktop/week7/work2/work2.v,,trigger,,,,,,,,
+C:/Users/박유현/Desktop/week7/work2/work2.v,1697521280,verilog,,,,work2,,,,,,,,
+E:/xilinx_project/week7_2/week7_2.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,

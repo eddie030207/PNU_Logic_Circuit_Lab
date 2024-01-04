@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/박유현/Desktop/week7/work1/21mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module 21mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/박유현/Desktop/week7/work1/decimal_to_binary.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decimal_to_binary
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/박유현/Desktop/week7/work1/four_bit_register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module four_bit_register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/박유현/Desktop/week7/work1/trigger.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module trigger
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/박유현/Desktop/week7/work2/work2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module work2
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/xilinx_project/week7_2/week7_2.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

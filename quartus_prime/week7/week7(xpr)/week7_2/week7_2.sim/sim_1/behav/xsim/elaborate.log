@@ -1,0 +1,21 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto ad01634866f845329ec9c8e910d6cc37 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot work2_behav xil_defaultlib.work2 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'Ce' is not connected on this instance [C:/Users/박유현/Desktop/week7/work2/work2.v:66]
+WARNING: [VRFC 10-5021] port 'Ce' is not connected on this instance [C:/Users/박유현/Desktop/week7/work2/work2.v:97]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "E:/xilinx_project/week7_2/week7_2.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "E:/xilinx_project/week7_2/week7_2.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.21mux
+Compiling module xil_defaultlib.four_bit_register
+Compiling module xil_defaultlib.decimal_to_binary
+Compiling module xil_defaultlib.trigger
+Compiling module xil_defaultlib.work2
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot work2_behav

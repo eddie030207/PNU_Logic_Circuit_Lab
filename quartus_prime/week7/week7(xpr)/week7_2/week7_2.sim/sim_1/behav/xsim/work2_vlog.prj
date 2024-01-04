@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"C:/Users/박유현/Desktop/week7/work1/21mux.v" \
+"C:/Users/박유현/Desktop/week7/work1/decimal_to_binary.v" \
+"C:/Users/박유현/Desktop/week7/work1/four_bit_register.v" \
+"C:/Users/박유현/Desktop/week7/work1/trigger.v" \
+"C:/Users/박유현/Desktop/week7/work2/work2.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
