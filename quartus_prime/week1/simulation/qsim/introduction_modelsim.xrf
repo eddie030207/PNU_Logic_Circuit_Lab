@@ -1,0 +1,8 @@
+vendor_name = ModelSim
+source_file = 1, E:/quartus_prime/week1/introduction.bdf
+source_file = 1, E:/quartus_prime/week1/db/introduction.cbx.xml
+design_name = introduction
+instance = comp, \C~output , C~output, introduction, 1
+instance = comp, \B~input , B~input, introduction, 1
+instance = comp, \A~input , A~input, introduction, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, introduction, 1
