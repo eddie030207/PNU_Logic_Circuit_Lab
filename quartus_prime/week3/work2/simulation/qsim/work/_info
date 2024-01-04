@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/quartus_prime/week3/work2/simulation/qsim
+vadder
+Z1 !s110 1695810605
+!i10b 1
+!s100 NV=bRZ9:2YN3g3;<H_@^33
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I=?OaXh]22gAD4`hOaaIK`2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1695810604
+8adder.vo
+Fadder.vo
+!i122 0
+L0 32 867
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1695810605.000000
+!s107 adder.vo|
+!s90 -work|work|adder.vo|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vadder_vlg_vec_tst
+R1
+!i10b 1
+!s100 Un<9o^Ko2;Z8Jzoj`^Djj1
+R2
+IGlF?lJDQBjRJ3i3LFg>US0
+R3
+R0
+R4
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 1
+L0 30 406
+R5
+r1
+!s85 0
+31
+R6
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R7
+R8
