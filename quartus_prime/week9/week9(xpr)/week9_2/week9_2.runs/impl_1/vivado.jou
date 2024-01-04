@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Dec 21 19:56:18 2023
+# Process ID: 1404
+# Current directory: E:/xilinx_project/week9_2/week9_2.runs/impl_1
+# Command line: vivado.exe -log week11.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source week11.tcl -notrace
+# Log file: E:/xilinx_project/week9_2/week9_2.runs/impl_1/week11.vdi
+# Journal file: E:/xilinx_project/week9_2/week9_2.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source week11.tcl -notrace
